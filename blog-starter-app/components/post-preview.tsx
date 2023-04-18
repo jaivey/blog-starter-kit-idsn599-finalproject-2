@@ -21,6 +21,8 @@ const PostPreview = ({
   author,
   slug,
 }: Props) => {
+  console.log(title, coverImage, date, excerpt, author, slug);
+
   return (
     <div>
       <div className="mb-5">
